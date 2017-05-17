@@ -1,0 +1,85 @@
+html { 
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body { font-family: 'Roboto', sans-serif; }
+
+h1 {
+	background: maroon;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	overflow: hidden;
+}
+
+span {
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+input {
+	font-size: 18px;
+	color: maroon;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.fa-plus { 
+	float: right;
+	cursor: pointer; 
+}
+
+li:nth-child(2n) { background: #f7f7f7; }
+
+li:hover span {
+	width: 40px;
+	opacity: 1.1;
+}
+
+input:focus {
+	background: #fff;
+	border: 3px solid maroon;
+	outline: none;
+}
+
+#sodrzina {
+	width: 360px;
+	margin: 200px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.zavrseno {
+	color: gray;
+	text-decoration: line-through;
+}
